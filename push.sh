@@ -1,1 +1,1 @@
-git commit -am "message" && git push origin master    
+git add -A && git commit -am "message" && git push origin master    
