@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" href="./main.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width" />
+  <script src="./js/jquery.fittext.js"></script>
+  <script src="./js/typed.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <div class="top">
+    <div class="top-text">
+      Zorgtech
+    </div><br><br>
+    <button id="bottombutton" onclick="scroll('#sp')"><center id="bottombuttonc">Scroll Down</center></button>
+  </div>
+  <div class="main"><span id="sp"></span>
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat quis felis ut pulvinar. Mauris sollicitudin fermentum justo ac rhoncus. Donec a consequat metus, mollis egestas lectus. Praesent luctus ante et finibus dictum. Ut quis ornare tellus. Integer eu feugiat tortor, eu ornare risus. Praesent at porta tellus. Praesent eu justo porta, dignissim orci sit amet, faucibus tellus. In hac habitasse platea dictumst. Praesent pharetra metus eget ante convallis, quis laoreet lorem eleifend. In rutrum, nulla at convallis feugiat, felis turpis dignissim nulla, eget luctus nulla massa eget tortor.
+
+Curabitur egestas arcu in est dapibus dapibus. Aenean vulputate felis magna, eget consequat lorem ullamcorper vel. Etiam porta est turpis, non dapibus neque elementum et. Vestibulum blandit sagittis mollis. Ut ex nunc, fermentum at tristique quis, interdum quis diam. Aliquam ultricies, tortor quis maximus placerat, nisi massa mattis nunc, at aliquet lectus felis id sem. Quisque ut diam ullamcorper lorem viverra facilisis. Quisque auctor, arcu sit amet suscipit hendrerit, erat ex luctus leo, id condimentum sapien augue et ante. Vivamus luctus tortor in orci pellentesque, eu sodales lacus volutpat. Duis mattis augue a luctus luctus. Pellentesque ac libero ante. Donec auctor nec nisi ut eleifend.
+
+Nulla quis lectus et eros commodo scelerisque vitae eget tortor. Mauris a cursus eros. Maecenas eros nulla, fermentum ut diam sit amet, aliquam egestas sapien. Pellentesque tortor tellus, gravida eu finibus eu, eleifend at nisi. Cras in imperdiet nisi. Donec non mattis eros, commodo pretium urna. Integer molestie leo lobortis interdum ullamcorper. Phasellus pretium vulputate mauris, vel elementum elit molestie consequat. Nullam condimentum malesuada finibus. Mauris cursus elementum mauris ac fermentum. Vivamus congue accumsan consequat. Curabitur tristique massa et dui aliquet cursus. Sed vehicula sem sed urna vehicula sodales.
+  </div>
+  <script>
+     jQuery(".top").fitText();
+    jQuery(".top-text").html("")
+    
+    $(function(){
+      $(".top-text").typed({
+        strings: ["Zorgtech"],
+        typeSpeed: 120,
+        onStringTyped: function() {setTimeout(function(){ jQuery(".typed-cursor").html("!"); jQuery(".typed-cursor").removeClass("typed-cursor");  }, 2000);}
+        
+      });
+    });
+  </script>
+</body>
+</html>

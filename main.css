@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Raleway;
+    background-color: #eee;
+}
+.top {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient( #002a40, #ccedff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #002a40, #ccedff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #002a40, #ccedff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #002a40, #ccedff); /* Standard syntax */
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+}
+.top-text, .typed-cursor {
+    
+}
+.main {
+    position: absolute;
+    top:100%;
+    left:0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#bottombutton {
+    position: absolute;
+    left:calc(50% - 5%);
+    background-color: #fff;
+    width:10%;
+    height:7%;
+    text-align: center;
+    
+   
+    
+}
+@media (max-width: 500px) {
+    #bottombutton {
+     width:100%;
+     left:0;
+    }
+}
+button {
+    border: none;
+    
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1.5s infinite;
+    -moz-animation: blink 1.5s infinite;
+    animation: blink 1.5s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
