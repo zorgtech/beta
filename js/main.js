@@ -1,4 +1,4 @@
- $(window).resize(function() {
+ /*$(window).resize(function() {
   if (window.innerWidth > 500 && window.innerWidth < 1280) {
       jQuery("#bottombutton").fitText(0.5);
     } else if (window.innerWidth > 1279) {
@@ -18,7 +18,7 @@
     }
        jQuery(".top").fitText();
     jQuery(".top-text").html("")
-    
+    */
     $(function(){
       $(".top-text").typed({
         strings: ["Zorgtech"],
